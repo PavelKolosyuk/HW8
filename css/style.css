@@ -4,12 +4,11 @@
 }
 
 .share_inner {
-    width: 320px;
+    max-width: 320px;
     height: 500px;
     padding: 20px 0;
     position: relative;    
     margin: 0 auto;
-
 }
 
 .bg {
@@ -61,8 +60,8 @@
 .share_header,
 .menu_item_link,
 .logo_h {
-    font-family: 'Motserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .share_header,
@@ -80,7 +79,7 @@
     font-size: 18px;
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 300;
     margin: 0 50px;
 }
 
@@ -123,8 +122,8 @@
     background: #ff4e50;
     border: 2px solid #ff4e50;
     border-radius: 20px;
-    font-family: 'Motserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     color: #fff;
     cursor: pointer;
@@ -167,8 +166,8 @@
     margin: 18px 0;
     font-size: 14px;
     line-height: 18px;
-    font-family: 'Motserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #333;
 }
 
@@ -176,6 +175,7 @@
     font-size: 14px;
     line-height: 18px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #666;
 }
 
@@ -228,8 +228,8 @@
     background: #fff;
     border: 2px solid #ff4e50;
     border-radius: 20px;
-    font-family: 'Motserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     color: #ff4e50;
     cursor: pointer;
@@ -238,7 +238,7 @@
 @media (min-width: 768px) {
 
     .share_inner {
-        width: 668px;
+        max-width: 668px;
         height: 620px;
         padding: 40px 50px;
     }
@@ -317,7 +317,7 @@
 @media (min-width: 940px) {
 
     .share_inner {
-        width: 940px;
+        max-width: 1440px;
         height: 620px;
         padding: 40px 0;
     }
